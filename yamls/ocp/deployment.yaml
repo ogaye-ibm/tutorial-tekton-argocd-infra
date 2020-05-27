@@ -17,7 +17,7 @@ spec:
         version: v1
     spec:
       containers:
-      - image: image-registry.openshift-image-registry.svc:5000/dev-og/cp4a-springboot-app:07e8ae1
+      - image: image-registry.openshift-image-registry.svc:5000/tekton-argocd/app:779460e
         imagePullPolicy: Always
         name: ui
         ports:
